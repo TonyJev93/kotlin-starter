@@ -23,9 +23,16 @@ dependencies {
     implementation 'org.jetbrains.kotlin:kotlin-reflect'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
+    // RestController
     implementation 'org.springframework.boot:spring-boot-starter-web'
 
+    // Validation
     implementation 'org.springframework.boot:spring-boot-starter-validation'
+
+    // Logging
+    implementation 'io.github.oshai:kotlin-logging-jvm:5.1.0'
+
+
 }
 
 tasks.withType(KotlinCompile) {
